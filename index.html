@@ -64,6 +64,18 @@
             font-size: 20px;
             line-height: 25px;
         }
+        #youtubeblock { 
+            /*background-color: red;
+            background: url(Nodejs_files/15-video-meeting.png);*/
+        }
+        #youtubecastlink { display: none; }
+        #youtubecastimg { display: block; }
+        #youtubeblock:hover #youtubecastlink {
+            display: inline-block;
+        }
+        #youtubeblock:hover #youtubecastimg {
+            display: none;
+        }
     </style>
 </head>
 
@@ -160,14 +172,20 @@
                             href="https://telegram.me/spbnodejs" rel="nofollow" >Телеграм</a> - добавим вашу
                             тему в список! 
 
+                            <p style="text-align: right;" id="youtubeblock">
+                                <a id="youtubecastlink" href="https://www.youtube.com/channel/UCOnPFVDMWYCykGz_72T1p_Q" style="background-color: transparent; border-radius: 5px; border: 1px solid rgb(86, 105, 99);  cursor: pointer; color: rgb(255, 255, 255); font-family: Arial; font-size: 12px; font-weight: bold; padding: 11px 13px; text-decoration: none; text-shadow: rgb(43, 102, 94) 0px -1px 0px; ">Подписывайтесь на видео-канал SPBNodeJS, будет организована трансляция!</a><img src="Nodejs_files/15-video-meeting.png" id="youtubecastimg" align="right" width="100px">&nbsp;
+
                             <p>Место встречи - <br/>
                                 офис компании JetBrains <br/>
                                 (<a href="https://2gis.ru/spb/search/jetbrains/firm/5348552838709212/tab/firms/extraLayers/%7B%22spb_1%22%3A%5B%22DGISLAYER28%22%2C%22DGISLAYER29%22%2C%22DGISLAYER30%22%5D%7D?queryState=center%2F30.292016%2C59.942245%2Fzoom%2F17" rel="nofollow" >Университетская набережная, 7-9-11/5А</a>). 
+
 
                             <p>Обязательна бесплатная регистрация на <a href="https://rossinno.timepad.ru/event/457207/" rel="nofollow" >TimePad</a> или <a href="https://www.meetup.com/St-Petersburg-Node-JS-User-Group/events/238313142/" rel="nofollow" >Meetup.com</a>.
 
                             <p><a href="pdf/Meetup3Welcome.pdf" rel="nofollow">Приглашение...</a>     
                             <p style="text-align: right;"><a href="pdf/MeetupWelcomePartners.pdf" rel="nofollow"     style="background-color: transparent; border-radius: 5px; border: 1px solid rgb(86, 105, 99); display: inline-block; cursor: pointer; color: rgb(255, 255, 255); font-family: Arial; font-size: 15px; font-weight: bold; padding: 11px 23px; text-decoration: none; text-shadow: rgb(43, 102, 94) 0px -1px 0px;">Стать спонсором</a> 
+
+
                         </div>
                     </div>
                 </div>
